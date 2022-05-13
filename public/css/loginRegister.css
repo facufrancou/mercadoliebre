@@ -1,0 +1,79 @@
+@import url(style.css);
+@import url(normalize.css);
+/* ----------------------------------- FORM LOGIN REGISTER --------------------- */
+.main-register-login {
+    padding-bottom: 40vh;
+    margin-top: 15px;
+  }
+  
+  /* TODOS LOS DIVS DEL FORMULARIO */
+  .parts-form {
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+  } 
+  /* LOS INPUT DE LOS DIV CON CLASE NORMAL-INPUT */
+  .normal-input input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: var(--gris-oscuro);
+  }
+  
+  /* LOS DIVS QUE CONTIENEN UN INPUT QUE NO ES RECTANGULAR Y EL DIV DE LA FECHA */
+  .special-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  /* LOS LABEL DE LOS INPUT CON CLASE SPECIAL-INPUT */
+  .title-special-input {
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  /* LOS INPUTS DE TIPO RADIO DEL FORMULARIO */
+  .special-input label input[type="radio"]{
+    margin-right: 15px;
+  }
+  
+  /* LOS LABELS DE LOS INPUTS DE TIPO CHECKBOX DEL FORMULARIO */
+  .option-checkbox {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  /* LOS INPUTS DE TIPO CHECKBOX */
+  .option-checkbox input {
+    margin: 0 10px;
+  }
+  
+
+  button {
+    background-color: var(--Celeste);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    transition: background-color 250ms;
+  }  
+  button:hover {
+    background-color: var(--Azul);
+  }
+  
+  .button-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+   }

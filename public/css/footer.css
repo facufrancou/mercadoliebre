@@ -1,0 +1,51 @@
+@import url(normalize.css);
+@import url(style.css);
+
+/* -------------------------------- FOOTER --------------------------------- */
+.logo-footer {
+    font-size: 30px;
+    color: var(--Celeste);
+    text-align: center;
+    margin: auto;
+  }
+  .titulo-footer {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .seccion-footer {
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+  }
+  .seccion-footer:hover .logo-footer{
+    color: var(--Verde);
+    transform: rotate(360deg);
+    transition: 0.8s;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px rgb(100, 100, 100)
+  }
+  .seccion-footer:hover .titulo-footer{
+    color: var(--Verde);
+    transition: 0.8s;
+    text-shadow:0px 0px 10px rgb(100, 100, 100); ;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    color: var(--Gris-oscuro);
+    text-align: center;
+    background-color: white;
+    text-align: center;
+  }
+  .info-footer{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .copyright{
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,97 @@
+@import url(loginRegister.css);
+@import url(footer.css);
+@import url(main.css);
+@import url(header.css);
+
+:root {
+  --Amarillo: #eac926;
+  --Azul: #03264c;
+  --Celeste: #1259c3;
+  --Gris-oscuro: #666;
+  --Gris-claro: #ebebeb;
+  --Verde: #39b54a;
+  --Blanco: #fff;
+  --Negro: #000
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background-color: var(--Gris-claro);
+  margin: auto;
+}
+
+/*   ----------------------------------- MEDIA QUERY ----------------------------------- */
+
+/*  media query para tablet  */
+
+@media (min-width: 381px) {
+  .articulo {
+    width: 45%;
+  }
+  .descripcion{
+    display: block;
+  }
+  .cuotas-header{
+    margin: auto;
+  }
+}
+
+/* media query para desktop */
+
+@media (min-width: 768px) {
+  .logo {
+    width: 200px;
+    margin: auto;
+  }
+  .cuotas-header{
+    margin: auto;
+  }
+  .serch-bar{
+    margin: auto;
+  }
+  .hb-button{
+    display: none;
+  }
+  .main-nav{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-nav li{
+    margin: 10px;
+  }
+  .nav-derecha, .nav-izquierda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+  .articulo {
+    width: 20%;
+  }
+  .info-footer{
+    flex-direction: row;
+  }
+  .copyright{
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .descripcion{
+    display: none;
+  }
+  .articulo:hover .descripcion {
+    display: block;
+    font-size: 15px;
+    color: var(--Gris-oscuro);
+    margin-top: 15px;
+  }
+  
+}
